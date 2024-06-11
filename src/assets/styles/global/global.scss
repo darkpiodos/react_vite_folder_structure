@@ -1,0 +1,48 @@
+// Primary Colors
+$primary-color: #291c3a;
+$primary-dark: #331c52;
+
+// Secondary Colors
+$secondary-color: #8121d0;
+
+// Neutral Colors
+$white: #ffffff;
+$black: #000000;
+$background-light: #e5e1ed;
+
+body {
+  margin: 0; /* No default margin */
+  padding: 0; /* No default padding */
+  background-color: $background-light;
+
+  .app-container {
+  }
+}
+
+/* Standard Screen */
+@media (min-width: 1201px) and (max-width: 1800px) {
+  body {
+    padding: 2.5em; /* Slightly smaller padding to balance the content */
+  }
+}
+
+/* Tablet */
+@media (min-width: 901px) and (max-width: 1200px) {
+  body {
+    padding: 2em; /* Matching padding */
+  }
+}
+
+/* Smartphone (Landscape) */
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    padding: 1.5em; /* Matching padding */
+  }
+}
+
+/* Smartphone (Portrait) */
+@media (max-width: 600px) {
+  body {
+    padding: 1em; /* Matching padding */
+  }
+}
